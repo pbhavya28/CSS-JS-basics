@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <title> Arrays</title>
+    </head>
+    <body>
+
+        <h1>WELCOME</h1>
+
+        <script language="JavaScript">
+
+
+        //Method 1 for declaring an array
+
+          var arr=new Array(5);
+          arr[0]=56;
+          arr[1]=57;
+          arr[2]=58;
+          arr[3]=58;
+          arr[4]=58;
+           
+          for(i=0; i<5; i++) {
+              document.write(arr[i] + "<br/>");
+          }
+          document.write("<br/>");
+        
+          for(i=0; i<5; i++) {
+              document.write(arr[i] +20 + "<br/>");
+          }
+          document.write("<br/>");
+
+        //Method 2 for declaring an array
+
+          var arr1=new Array("Hii","Hello"," namaste","Aadaab");
+
+          for(i=0; i<arr1.length; i++){
+            document.write(arr1[i] + "<br/>");
+          }
+          document.write("<br/>");
+
+          //Method 3 for declaring an array
+
+          var arr2= ["zindagi","do","pal","ki",];
+
+          for(i=0; i<arr1.length; i++){
+            document.write(arr2[i] + "<br/>");}
+
+            document.write("<br/>");
+
+        // reverse the array
+
+        var arr3=arr1.reverse();
+
+        for(i=0; i<arr1.length; i++){
+            document.write(arr3[i] + "<br/>");}
+        </script>
+         
+
+    </body>
+</html>
